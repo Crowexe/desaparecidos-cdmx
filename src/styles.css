@@ -1,0 +1,27 @@
+/* src/styles.css */
+.navbar-custom {
+    background-color: #0c231e;
+    margin-left: -12px;
+    width: 100vw;
+    padding-left: 20px;
+  }
+  
+  .sidebar-custom {
+    background-color: #285c4d;
+    height: 100vh;
+    padding-top: 14px;
+  }
+  
+  .sidebar-custom .list-group-item {
+    background-color: #1e3b34;
+    border: none;
+    color: white;
+  }
+  
+  .sidebar-custom .list-group-item:hover {
+    background-color: #4c654e;
+  }
+  
+  Button {
+    background-color: #4c654e;
+  }
