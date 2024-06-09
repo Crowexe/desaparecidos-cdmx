@@ -1,7 +1,8 @@
 /* src/styles.css */
 
 /* General Styles */
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -38,10 +39,21 @@ body, html {
   color: white;
   margin-left: 15px;
   text-decoration: none;
+  position: relative;
+  padding-bottom: 10px;
+  /* Añadido para el espacio extra debajo */
 }
 
-.navbar-links a:hover {
-  text-decoration: underline;
+.navbar-links a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  /* Ajusta la distancia del subrayado desde el enlace */
+  height: 2px;
+  background-color: white;
+  /* Cambiado a blanco */
 }
 
 /* Sidebar Styles */
