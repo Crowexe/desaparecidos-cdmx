@@ -1,27 +1,105 @@
 /* src/styles.css */
-.navbar-custom {
-    background-color: #0c231e;
-    margin-left: -12px;
-    width: 100vw;
-    padding-left: 20px;
-  }
-  
-  .sidebar-custom {
-    background-color: #285c4d;
-    height: 100vh;
-    padding-top: 14px;
-  }
-  
-  .sidebar-custom .list-group-item {
-    background-color: #1e3b34;
-    border: none;
-    color: white;
-  }
-  
-  .sidebar-custom .list-group-item:hover {
-    background-color: #4c654e;
-  }
-  
-  Button {
-    background-color: #4c654e;
-  }
+
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #0c231e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #285c4d;
+  padding: 10px;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar button {
+  background-color: #285c4d;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sidebar button:hover {
+  background-color: #1e3b34;
+}
+
+.sidebar .submenu {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.image-container button {
+  background-color: #285c4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.image-container button:hover {
+  background-color: #1e3b34;
+}

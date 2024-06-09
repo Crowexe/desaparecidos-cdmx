@@ -1,0 +1,29 @@
+.main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  .image-container button {
+    background-color: #285c4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .image-container button:hover {
+    background-color: #1e3b34;
+  }
+  
