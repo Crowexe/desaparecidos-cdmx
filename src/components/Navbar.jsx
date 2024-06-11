@@ -1,22 +1,22 @@
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-    const location = useLocation();
-
-    const getLinkClass = (path) => {
-        return location.pathname === path ? 'active' : '';
-    };
-
-    return (
-        <nav className="navbar">
-            <div className="navbar-brand">Desaparecidos</div>
-            <div className="navbar-links">
-                <Link to="/" className={getLinkClass('/')}>Analisis</Link>
-                <Link to="/proposito" className={getLinkClass('/proposito')}>Proposito</Link>
-                <Link to="/acerca-de-nosotros" className={getLinkClass('/acerca-de-nosotros')}>Acerca de nosotros</Link>
-            </div>
-        </nav>
-    );
+  return (
+    <div className="navbar">
+      <div className="navbar-brand">Desaparecidos</div>
+      <div className="navbar-links">
+        <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
+          Analisis
+        </NavLink>
+        <NavLink to="/proposito" className={({ isActive }) => (isActive ? 'active' : '')}>
+          Proposito
+        </NavLink>
+        <NavLink to="/acerca-de-nosotros" className={({ isActive }) => (isActive ? 'active' : '')}>
+          Acerca de nosotros
+        </NavLink>
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;

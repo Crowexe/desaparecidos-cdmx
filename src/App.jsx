@@ -21,11 +21,11 @@ const App = () => {
   };
 
   const handleNextImage = () => {
-    setActiveImageIndex((prevIndex) => (prevIndex + 1) % sections[activeSection].length);
+    setActiveImageIndex((prevIndex) => (prevIndex + 1) % (sections[activeSection]?.length || 1));
   };
 
   const handlePrevImage = () => {
-    setActiveImageIndex((prevIndex) => (prevIndex - 1 + sections[activeSection].length) % sections[activeSection].length);
+    setActiveImageIndex((prevIndex) => (prevIndex - 1 + (sections[activeSection]?.length || 1)) % (sections[activeSection]?.length || 1));
   };
 
   return (

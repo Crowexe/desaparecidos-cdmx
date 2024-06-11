@@ -1,23 +1,31 @@
-/* src/styles.css */
-
 /* General Styles */
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
+  overflow: hidden; /* Evitar scroll en navbar y sidebar */
 }
 
 .content-container {
   display: flex;
   flex: 1;
+  width: 100%;
 }
 
 /* Navbar Styles */
@@ -28,6 +36,7 @@ html {
   align-items: center;
   padding: 10px 20px;
   color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añadir sombra para separación visual */
 }
 
 .navbar-brand {
@@ -35,13 +44,16 @@ html {
   font-weight: bold;
 }
 
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
 .navbar-links a {
   color: white;
-  margin-left: 15px;
   text-decoration: none;
   position: relative;
   padding-bottom: 10px;
-  /* Añadido para el espacio extra debajo */
 }
 
 .navbar-links a.active::after {
@@ -49,21 +61,21 @@ html {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -5px;
-  /* Ajusta la distancia del subrayado desde el enlace */
+  bottom: -8px;
   height: 2px;
   background-color: white;
-  /* Cambiado a blanco */
 }
 
 /* Sidebar Styles */
 .sidebar {
   background-color: #285c4d;
   padding: 10px;
-  height: 100vh;
+  height: 100vh; /* Altura de la pantalla menos la altura del navbar */
   width: 200px;
   display: flex;
   flex-direction: column;
+  top: 60px; /* Justo debajo del navbar */
+  overflow: hidden; /* Evitar scroll en sidebar */
 }
 
 .sidebar button {
@@ -90,12 +102,19 @@ html {
 .main-content {
   flex: 1;
   padding: 20px;
+  margin-left: 200px; /* Espacio para la barra lateral fija */
+  overflow-y: auto; /* Hacer desplazable solo el contenido principal */
+}
+
+.main-title {
+  text-align: center; /* Centrar el título */
 }
 
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .image {
@@ -114,4 +133,34 @@ html {
 
 .image-container button:hover {
   background-color: #1e3b34;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Espacio entre botones y la imagen */
+}
+
+.button-container button {
+  background-color: #285c4d; /* Fondo del botón */
+  color: white; /* Color del texto */
+  border: 2px solid #285c4d; /* Borde del botón */
+  padding: 10px 20px;
+  cursor: pointer; /* Bordes redondeados */
+  transition: background-color 0.3s, color 0.3s; /* Transición para efectos */
+}
+
+.button-container button:hover {
+  background-color: white; /* Fondo del botón al hacer hover */
+  color: #285c4d; /* Color del texto al hacer hover */
+}
+
+.button-graph {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 20px;
+}
+
+.button-map {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
 }
