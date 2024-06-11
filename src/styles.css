@@ -90,6 +90,7 @@ body, html {
 
 .sidebar button:hover {
   background-color: #1e3b34;
+  border-radius: 10px;
 }
 
 .sidebar .submenu {
