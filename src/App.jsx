@@ -14,14 +14,14 @@ const App = () => {
   const sections = {
     General: {
       images: [
-        '/src/images/CDMX.png',
-        '/src/images/EDOMEX.png',
-        '/src/images/General Dist H.png',
-        '/src/images/General Dist M.png',
+        'https://imgur.com/HLcC3gd',
+        'https://imgur.com/EDOMEX.png',
+        'https://imgur.com/GeneralDistH.png',
+        'https://imgur.com/GeneralDistM.png',
       ],
       mapImage: [
-        '/src/images/Mapa - cdmx.jpg',
-        '/src/images/Mapa - metropolitana.jpg',
+        'https://imgur.com/MapaCDMX.jpg',
+        'https://imgur.com/MapaMetropolitana.jpg',
       ],
       texts: [
         'Texto para General - CDMX...',
@@ -32,14 +32,14 @@ const App = () => {
     },
     Azcapotzalco: {
       images: [
-        '/src/images/municipios/Azcapotzalco/Azcapotzalco.png',
-        '/src/images/municipios/Azcapotzalco/Azcapotzalco - Dist H.png',
-        '/src/images/municipios/Azcapotzalco/Azcapotzalco - Dist M.png',
-        '/src/images/municipios/Azcapotzalco/Azcapotzalco - El Rosario.png',
-        '/src/images/municipios/Azcapotzalco/Azcapotzalco - La preciosa.png',
-        '/src/images/municipios/Azcapotzalco/Azcapotzalco - Nueva España.png',
+        'https://imgur.com/Azcapotzalco.png',
+        'https://imgur.com/AzcapotzalcoDistH.png',
+        'https://imgur.com/AzcapotzalcoDistM.png',
+        'https://imgur.com/AzcapotzalcoElRosario.png',
+        'https://imgur.com/AzcapotzalcoLaPreciosa.png',
+        'https://imgur.com/AzcapotzalcoNuevaEspana.png',
       ],
-      mapImage: ['/src/images/municipios/Azcapotzalco/Mapa - Azcapotzalco.jpg'],
+      mapImage: ['https://imgur.com/MapaAzcapotzalco.jpg'],
       texts: [
         'Texto para Azcapotzalco...',
         'Texto para Azcapotzalco - Dist H...',
@@ -51,15 +51,15 @@ const App = () => {
     },
     Cuahutemoc: {
       images: [
-        '/src/images/municipios/Cuahutemoc/Cuahutemoc.png',
-        '/src/images/municipios/Cuahutemoc/Cuahutemoc Predict.png',
-        '/src/images/municipios/Cuahutemoc/Cuahutemoc Dist H.png',
-        '/src/images/municipios/Cuahutemoc/Cuahutemoc Dist M.png',
-        '/src/images/municipios/Cuahutemoc/Cuahutemoc - Colonia centro.png',
-        '/src/images/municipios/Cuahutemoc/Cuahutemoc - Juarez.png',
-        '/src/images/municipios/Cuahutemoc/Cuahutemoc - Tabacalera.png',
+        'https://imgur.com/Cuahutemoc.png',
+        'https://imgur.com/CuahutemocPredict.png',
+        'https://imgur.com/CuahutemocDistH.png',
+        'https://imgur.com/CuahutemocDistM.png',
+        'https://imgur.com/CuahutemocColoniaCentro.png',
+        'https://imgur.com/CuahutemocJuarez.png',
+        'https://imgur.com/CuahutemocTabacalera.png',
       ],
-      mapImage: ['/src/images/municipios/Cuahutemoc/Mapa - Cuahutemoc.jpg'],
+      mapImage: ['https://imgur.com/MapaCuahutemoc.jpg'],
       texts: [
         'Texto para Cuahutemoc...',
         'Texto para Cuahutemoc - Predict...',
@@ -72,14 +72,14 @@ const App = () => {
     },
     MelchorOcampo: {
       images: [
-        '/src/images/municipios/MelchorOcampo/Melcho Ocampo.png',
-        '/src/images/municipios/MelchorOcampo/Melcho Ocampo Dist H.png',
-        '/src/images/municipios/MelchorOcampo/Melcho Ocampo Dist M.png',
-        '/src/images/municipios/MelchorOcampo/Melcho Ocampo - Educación.png',
-        '/src/images/municipios/MelchorOcampo/Melcho Ocampo - San Isidro.png',
-        '/src/images/municipios/MelchorOcampo/Melcho Ocampo - Visitación.png',
+        'https://imgur.com/MelchorOcampo.png',
+        'https://imgur.com/MelchorOcampoDistH.png',
+        'https://imgur.com/MelchorOcampoDistM.png',
+        'https://imgur.com/MelchorOcampoEducacion.png',
+        'https://imgur.com/MelchorOcampoSanIsidro.png',
+        'https://imgur.com/MelchorOcampoVisitacion.png',
       ],
-      mapImage: ['/src/images/municipios/MelchorOcampo/Mapa - Melchor Ocampo.jpg'],
+      mapImage: ['https://imgur.com/MapaMelchorOcampo.jpg'],
       texts: [
         'Texto para Melchor Ocampo...',
         'Texto para Melchor Ocampo - Dist H...',
@@ -91,11 +91,11 @@ const App = () => {
     },
     Cuatitlan: {
       images: [
-        '/src/images/municipios/Cuatitlan/Cuatitlan.png',
-        '/src/images/municipios/Cuatitlan/Cuatitlan - Dist H.png',
-        '/src/images/municipios/Cuatitlan/Cuatitlan - Dist M.png',
+        'https://imgur.com/Cuatitlan.png',
+        'https://imgur.com/CuatitlanDistH.png',
+        'https://imgur.com/CuatitlanDistM.png',
       ],
-      mapImage: ['/src/images/municipios/Cuatitlan/Mapa - Cuatitlan Izcalli.jpg'],
+      mapImage: ['https://imgur.com/MapaCuatitlanIzcalli.jpg'],
       texts: [
         'Texto para Cuatitlan...',
         'Texto para Cuatitlan - Dist H...',
@@ -104,11 +104,11 @@ const App = () => {
     },
     Teloyucan: {
       images: [
-        '/src/images/municipios/Teloyucan/Teloyucan.png',
-        '/src/images/municipios/Teloyucan/Teloyucan - Dist H.png',
-        '/src/images/municipios/Teloyucan/Teloyucan - Dist M.png',
+        'https://imgur.com/Teloyucan.png',
+        'https://imgur.com/TeloyucanDistH.png',
+        'https://imgur.com/TeloyucanDistM.png',
       ],
-      mapImage: ['/src/images/municipios/Teloyucan/Mapa - Teloyucan.jpg'],
+      mapImage: ['https://imgur.com/MapaTeloyucan.jpg'],
       texts: [
         'Texto para Teloyucan...',
         'Texto para Teloyucan - Dist H...',
@@ -117,14 +117,14 @@ const App = () => {
     },
     VenustianoCarranza: {
       images: [
-        '/src/images/municipios/VenustianoCarranza/Venustiano Carranza.png',
-        '/src/images/municipios/VenustianoCarranza/Venustiano Dist H.png',
-        '/src/images/municipios/VenustianoCarranza/Venustiano Dist M.png',
-        '/src/images/municipios/VenustianoCarranza/Venustiano - 10 de mayo.png',
-        '/src/images/municipios/VenustianoCarranza/Venustiano - Fiviport.png',
-        '/src/images/municipios/VenustianoCarranza/Venustiano - Merced.png',
+        'https://imgur.com/VenustianoCarranza.png',
+        'https://imgur.com/VenustianoCarranzaDistH.png',
+        'https://imgur.com/VenustianoCarranzaDistM.png',
+        'https://imgur.com/VenustianoCarranza10DeMayo.png',
+        'https://imgur.com/VenustianoCarranzaFiviport.png',
+        'https://imgur.com/VenustianoCarranzaMerced.png',
       ],
-      mapImage: ['/src/images/municipios/VenustianoCarranza/Mapa - Venustiano Carranza.jpg'],
+      mapImage: ['https://imgur.com/MapaVenustianoCarranza.jpg'],
       texts: [
         'Texto para Venustiano Carranza...',
         'Texto para Venustiano Carranza - Dist H...',
