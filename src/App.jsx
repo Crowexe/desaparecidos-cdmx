@@ -32,14 +32,14 @@ const App = () => {
     },
     Azcapotzalco: {
       images: [
-        'https://imgur.com/Azcapotzalco.png',
-        'https://imgur.com/AzcapotzalcoDistH.png',
-        'https://imgur.com/AzcapotzalcoDistM.png',
-        'https://imgur.com/AzcapotzalcoElRosario.png',
-        'https://imgur.com/AzcapotzalcoLaPreciosa.png',
-        'https://imgur.com/AzcapotzalcoNuevaEspana.png',
+        'https://i.imgur.com/W5KKSwZ.png',
+        'https://i.imgur.com/FpOGX3q.png',
+        'https://i.imgur.com/FGTlos8.png',
+        'https://i.imgur.com/P6UNVcB.png',
+        'https://i.imgur.com/1iGtxJz.png',
+        'https://i.imgur.com/3Da4cok.png',
       ],
-      mapImage: ['https://imgur.com/MapaAzcapotzalco.jpg'],
+      mapImage: ['https://i.imgur.com/FF3dy0L.jpeg'],
       texts: [
         'Texto para Azcapotzalco...',
         'Texto para Azcapotzalco - Dist H...',
