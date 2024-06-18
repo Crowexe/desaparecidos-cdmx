@@ -51,15 +51,15 @@ const App = () => {
     },
     Cuahutemoc: {
       images: [
-        'https://imgur.com/Cuahutemoc.png',
-        'https://imgur.com/CuahutemocPredict.png',
-        'https://imgur.com/CuahutemocDistH.png',
-        'https://imgur.com/CuahutemocDistM.png',
-        'https://imgur.com/CuahutemocColoniaCentro.png',
-        'https://imgur.com/CuahutemocJuarez.png',
-        'https://imgur.com/CuahutemocTabacalera.png',
+        'https://i.imgur.com/ntYWSL6.png',
+        'https://i.imgur.com/ecK0GQQ.png',
+        'https://i.imgur.com/IXqIdcm.png',
+        'https://i.imgur.com/TPXg2nK.png',
+        'https://i.imgur.com/hQB9Kk8.png',
+        'https://i.imgur.com/CswAWs3.png',
+        'https://i.imgur.com/Gx1AJ0N.png',
       ],
-      mapImage: ['https://imgur.com/MapaCuahutemoc.jpg'],
+      mapImage: ['https://i.imgur.com/3nCHfct.jpeg'],
       texts: [
         'Texto para Cuahutemoc...',
         'Texto para Cuahutemoc - Predict...',
@@ -72,14 +72,14 @@ const App = () => {
     },
     MelchorOcampo: {
       images: [
-        'https://imgur.com/MelchorOcampo.png',
-        'https://imgur.com/MelchorOcampoDistH.png',
-        'https://imgur.com/MelchorOcampoDistM.png',
-        'https://imgur.com/MelchorOcampoEducacion.png',
-        'https://imgur.com/MelchorOcampoSanIsidro.png',
-        'https://imgur.com/MelchorOcampoVisitacion.png',
+        'https://i.imgur.com/blPI0S3.png',
+        'https://i.imgur.com/FLfxijb.png',
+        'https://i.imgur.com/CSJnqki.png',
+        'https://i.imgur.com/zPj2zgc.png',
+        'https://i.imgur.com/eVRem9M.png',
+        'https://i.imgur.com/DOHhkwr.png',
       ],
-      mapImage: ['https://imgur.com/MapaMelchorOcampo.jpg'],
+      mapImage: ['https://i.imgur.com/R3oFv7v.jpeg'],
       texts: [
         'Texto para Melchor Ocampo...',
         'Texto para Melchor Ocampo - Dist H...',
@@ -91,11 +91,11 @@ const App = () => {
     },
     Cuatitlan: {
       images: [
-        'https://imgur.com/Cuatitlan.png',
-        'https://imgur.com/CuatitlanDistH.png',
-        'https://imgur.com/CuatitlanDistM.png',
+        'https://i.imgur.com/5Y1pcWz.png',
+        'https://i.imgur.com/DMQILT0.png',
+        'https://i.imgur.com/UPUfHbw.png',
       ],
-      mapImage: ['https://imgur.com/MapaCuatitlanIzcalli.jpg'],
+      mapImage: ['https://i.imgur.com/n5Q3sFY.jpeg'],
       texts: [
         'Texto para Cuatitlan...',
         'Texto para Cuatitlan - Dist H...',
@@ -104,11 +104,11 @@ const App = () => {
     },
     Teloyucan: {
       images: [
-        'https://imgur.com/Teloyucan.png',
-        'https://imgur.com/TeloyucanDistH.png',
-        'https://imgur.com/TeloyucanDistM.png',
+        'https://i.imgur.com/30ChiBJ.png',
+        'https://i.imgur.com/Zngc9BX.png',
+        'https://i.imgur.com/7FXf8yZ.png',
       ],
-      mapImage: ['https://imgur.com/MapaTeloyucan.jpg'],
+      mapImage: ['https://i.imgur.com/0uxyBd0.jpeg'],
       texts: [
         'Texto para Teloyucan...',
         'Texto para Teloyucan - Dist H...',
@@ -117,14 +117,14 @@ const App = () => {
     },
     VenustianoCarranza: {
       images: [
-        'https://imgur.com/VenustianoCarranza.png',
-        'https://imgur.com/VenustianoCarranzaDistH.png',
-        'https://imgur.com/VenustianoCarranzaDistM.png',
-        'https://imgur.com/VenustianoCarranza10DeMayo.png',
-        'https://imgur.com/VenustianoCarranzaFiviport.png',
-        'https://imgur.com/VenustianoCarranzaMerced.png',
+        'https://i.imgur.com/UckX6Jc.png',
+        'https://i.imgur.com/vV5t0ex.png',
+        'https://i.imgur.com/fxzhI0w.png',
+        'https://i.imgur.com/lbFfi9S.png',
+        'https://i.imgur.com/hsTThMg.png',
+        'https://i.imgur.com/L47dZ8k.png',
       ],
-      mapImage: ['https://imgur.com/MapaVenustianoCarranza.jpg'],
+      mapImage: ['https://i.imgur.com/UCrrzOv.jpeg'],
       texts: [
         'Texto para Venustiano Carranza...',
         'Texto para Venustiano Carranza - Dist H...',
