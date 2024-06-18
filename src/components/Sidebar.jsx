@@ -3,16 +3,18 @@ import PropTypes from 'prop-types';
 const Sidebar = ({ handleSectionChange }) => {
   return (
     <div className="sidebar">
-      <button onClick={() => handleSectionChange('General')}>CDMX y área metropolitana</button>
-      <button onClick={() => handleSectionChange('CDMX')}>CDMX</button>
+      <button onClick={() => handleSectionChange('General')}>GENERAL</button>
+      <button className="no-hover">CDMX</button>
       <div className="submenu">
-        <button onClick={() => handleSectionChange('Alcaldía 1')}>Alcaldía 1</button>
-        <button onClick={() => handleSectionChange('Alcaldía 2')}>Alcaldía 2</button>
+        <button onClick={() => handleSectionChange('Azcapotzalco')}>Azcapotzalco</button>
+        <button onClick={() => handleSectionChange('Cuahutemoc')}>Cuahutemoc</button>
+        <button onClick={() => handleSectionChange('MelchorOcampo')}>Melchor Ocampo</button>
       </div>
-      <button onClick={() => handleSectionChange('Metropolitana')}>Área metropolitana</button>
+      <button className="no-hover">ÁREA METROPOLITANA</button>
       <div className="submenu">
-        <button onClick={() => handleSectionChange('Municipio 1')}>Municipio 1</button>
-        <button onClick={() => handleSectionChange('Municipio 2')}>Municipio 2</button>
+        <button onClick={() => handleSectionChange('Cuatitlan')}>Cuatitlan</button>
+        <button onClick={() => handleSectionChange('Teloyucan')}>Teloyucan</button>
+        <button onClick={() => handleSectionChange('VenustianoCarranza')}>Venustiano Carranza</button>
       </div>
     </div>
   );

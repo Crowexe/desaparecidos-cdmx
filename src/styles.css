@@ -19,7 +19,6 @@ body, html {
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  overflow: hidden; /* Evitar scroll en navbar y sidebar */
 }
 
 .content-container {
@@ -36,7 +35,12 @@ body, html {
   align-items: center;
   padding: 10px 20px;
   color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añadir sombra para separación visual */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Fijar el navbar */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Asegurar que el navbar esté por encima del contenido */
 }
 
 .navbar-brand {
@@ -61,7 +65,7 @@ body, html {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -8px;
+  bottom: -9.5px;
   height: 2px;
   background-color: white;
 }
@@ -70,12 +74,12 @@ body, html {
 .sidebar {
   background-color: #285c4d;
   padding: 10px;
-  height: 100vh; /* Altura de la pantalla menos la altura del navbar */
+  height: 100vh;
   width: 200px;
   display: flex;
   flex-direction: column;
-  top: 60px; /* Justo debajo del navbar */
-  overflow: hidden; /* Evitar scroll en sidebar */
+  position: fixed; /* Fijar el sidebar */
+  top: 40px; /* Justo debajo del navbar */
 }
 
 .sidebar button {
@@ -93,6 +97,11 @@ body, html {
   border-radius: 10px;
 }
 
+.sidebar .no-hover:hover {
+  background-color: #285c4d;
+  cursor: context-menu;
+}
+
 .sidebar .submenu {
   margin-left: 15px;
   display: flex;
@@ -102,38 +111,50 @@ body, html {
 /* Main Content Styles */
 .main-content {
   flex: 1;
-  padding: 20px;
+  padding: 20px; /* Añadir padding alrededor del contenido */
+  padding-top: 50px;
   margin-left: 200px; /* Espacio para la barra lateral fija */
-  overflow-y: auto; /* Hacer desplazable solo el contenido principal */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: flex-start; /* Alineación vertical arriba */
+  text-align: justify; /* Justificar el texto */
 }
 
 .main-title {
   text-align: center; /* Centrar el título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.main-content p, .main-content ol {
+  max-width: 800px; /* Limitar el ancho para centrar el contenido */
+  width: 100%;
+  margin-bottom: 20px; /* Espacio entre párrafos y listas */
+  line-height: 1.6; /* Mejorar legibilidad */
+}
+
+.main-content ol {
+  padding-left: 20px; /* Indentación para la lista */
+}
+
+.main-content ol li {
+  margin-bottom: 10px; /* Espacio entre elementos de la lista */
 }
 
 .image-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* Asegurar que el texto esté debajo de la imagen */
+  align-items: center; /* Centrar la imagen y el texto horizontalmente */
   width: 100%;
+  max-width: 800px; /* Limitar el ancho de la imagen */
+  padding: 20px;
+  overflow: hidden; /* Asegurar que la imagen no se salga del contenedor */
 }
 
-.image {
-  max-width: 100%;
-  height: auto;
-  margin: 0 10px;
-}
-
-.image-container button {
-  background-color: #285c4d;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.image-container button:hover {
-  background-color: #1e3b34;
+.image-container img {
+  width: 100%; /* Hacer que la imagen ocupe el 100% del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+  border-radius: 10px; /* Añadir bordes redondeados */
 }
 
 .button-container {
