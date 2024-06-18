@@ -14,8 +14,8 @@ const App = () => {
   const sections = {
     General: {
       images: [
-        'https://imgur.com/HLcC3gd',
-        'https://imgur.com/EDOMEX.png',
+        'https://i.imgur.com/HLcC3gd.png',
+        'https://i.imgur.com/37vje7B.png',
         'https://imgur.com/GeneralDistH.png',
         'https://imgur.com/GeneralDistM.png',
       ],
