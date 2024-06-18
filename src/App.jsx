@@ -16,12 +16,12 @@ const App = () => {
       images: [
         'https://i.imgur.com/HLcC3gd.png',
         'https://i.imgur.com/37vje7B.png',
-        'https://imgur.com/GeneralDistH.png',
-        'https://imgur.com/GeneralDistM.png',
+        'https://i.imgur.com/Mte6LV7.png',
+        'https://i.imgur.com/riHEJBM.png',
       ],
       mapImage: [
-        'https://imgur.com/MapaCDMX.jpg',
-        'https://imgur.com/MapaMetropolitana.jpg',
+        'https://i.imgur.com/UAa2235.jpeg',
+        'https://i.imgur.com/EcYKqLw.jpeg',
       ],
       texts: [
         'Texto para General - CDMX...',
