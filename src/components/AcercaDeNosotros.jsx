@@ -10,9 +10,7 @@ const AcercaDeNosotros = () => {
         </div>
         <img src="https://i.imgur.com/bDp3H0Y.png" alt="ESCOM Logo" className="right-logo" />
       </div>
-      <h1 className="main-title">Acerca de Nosotros</h1>
       <p><b>CREADO POR:</b><br />
-
         Castillo Perez Samuel<br />
         Sanchez Juarez Luis Alberto<br />
         Venegas Avila Luis Fernando</p>
