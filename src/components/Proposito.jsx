@@ -30,6 +30,15 @@ const Proposito = () => {
           estadísticas visuales que permitan a los usuarios explorar y comprender la problemática además de factores de riesgo.
         </li>
       </ol>
+      <p>
+        Por la complejidad para conseguir los datos y lo límitado del proyecto, sólo se tomaron en cuenta las 3 alcadías y municipios con mayor indice de desapariciones en relación con su número de habitantes y a su vez, este mismo críterio se les aplico a las 3 colonias de cada uno de los seleccionados.
+      </p>
+      <p>
+        A continuación se deja un link para descargar el Excel donde se junto toda la información obtenida.
+      </p>
+      <a href="https://docs.google.com/spreadsheets/d/1gyfBmxRbIa3solbcYK4_mQh53KTCbrqX/edit?usp=sharing&ouid=115778200416186961155&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.imgur.com/oux5jBf.png" alt="Enlace al documento" className="link-image" />
+      </a>
     </div>
   );
 };

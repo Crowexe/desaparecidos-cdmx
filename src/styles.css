@@ -34,6 +34,8 @@ body, html {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  font-size: large;
+  font-weight: bold;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed; /* Fijar el navbar */
@@ -44,8 +46,14 @@ body, html {
 }
 
 .navbar-brand {
-  font-size: 24px;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
 
 .navbar-links {
@@ -78,8 +86,8 @@ body, html {
   width: 200px;
   display: flex;
   flex-direction: column;
-  position: fixed; /* Fijar el sidebar */
-  top: 40px; /* Justo debajo del navbar */
+  position: fixed;
+  top: 40px;
 }
 
 .sidebar button {
@@ -111,70 +119,71 @@ body, html {
 /* Main Content Styles */
 .main-content {
   flex: 1;
-  padding: 20px; /* Añadir padding alrededor del contenido */
+  padding: 20px;
   padding-top: 50px;
-  margin-left: 200px; /* Espacio para la barra lateral fija */
+  margin-left: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrar horizontalmente */
-  justify-content: flex-start; /* Alineación vertical arriba */
-  text-align: justify; /* Justificar el texto */
+  align-items: center;
+  justify-content: flex-start;
+  text-align: justify;
 }
 
 .main-title {
-  text-align: center; /* Centrar el título */
-  margin-bottom: 20px; /* Espacio debajo del título */
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .main-content p, .main-content ol {
-  max-width: 800px; /* Limitar el ancho para centrar el contenido */
+  max-width: 800px;
   width: 100%;
-  margin-bottom: 20px; /* Espacio entre párrafos y listas */
-  line-height: 1.6; /* Mejorar legibilidad */
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 .main-content ol {
-  padding-left: 20px; /* Indentación para la lista */
+  padding-left: 20px;
 }
 
 .main-content ol li {
-  margin-bottom: 10px; /* Espacio entre elementos de la lista */
+  margin-bottom: 10px;
 }
 
 .image-container {
   display: flex;
-  flex-direction: column; /* Asegurar que el texto esté debajo de la imagen */
-  align-items: center; /* Centrar la imagen y el texto horizontalmente */
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  max-width: 800px; /* Limitar el ancho de la imagen */
+  max-width: 800px;
   padding: 20px;
-  overflow: hidden; /* Asegurar que la imagen no se salga del contenedor */
+  overflow: hidden;
 }
 
 .image-container img {
-  width: 100%; /* Hacer que la imagen ocupe el 100% del contenedor */
-  height: auto; /* Mantener la proporción de la imagen */
-  border-radius: 10px; /* Añadir bordes redondeados */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; /* Espacio entre botones y la imagen */
+  margin-bottom: 20px;
 }
 
 .button-container button {
-  background-color: #285c4d; /* Fondo del botón */
-  color: white; /* Color del texto */
-  border: 2px solid #285c4d; /* Borde del botón */
+  background-color: #285c4d;
+  color: white;
+  border: 2px solid #285c4d;
   padding: 10px 20px;
-  cursor: pointer; /* Bordes redondeados */
-  transition: background-color 0.3s, color 0.3s; /* Transición para efectos */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .button-container button:hover {
-  background-color: white; /* Fondo del botón al hacer hover */
-  color: #285c4d; /* Color del texto al hacer hover */
+  background-color: white;
+  color: #285c4d;
 }
 
 .button-graph {
@@ -185,4 +194,92 @@ body, html {
 .button-map {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 20px;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.data-table td {
+  text-align: center;
+}
+
+.link-image {
+  width: 150px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Centra la imagen horizontalmente */
+  cursor: pointer; /* Muestra un cursor de puntero para indicar que es un enlace */
+}
+
+.instituto-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.left-logo, .right-logo {
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+}
+
+.instituto-text {
+  text-align: center;
 }

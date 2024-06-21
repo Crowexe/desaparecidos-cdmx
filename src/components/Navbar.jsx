@@ -2,20 +2,23 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="navbar-brand">Desaparecidos</div>
+    <nav className="navbar">
+      <div className="navbar-brand">
+        <img src="https://i.imgur.com/bDp3H0Y.png" alt="Logo" className="navbar-logo" />
+        <span>DESAPARECIDOS</span>
+      </div>
       <div className="navbar-links">
         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
-          Analisis
+          Análisis
         </NavLink>
         <NavLink to="/proposito" className={({ isActive }) => (isActive ? 'active' : '')}>
-          Proposito
+          Propósito
         </NavLink>
         <NavLink to="/acerca-de-nosotros" className={({ isActive }) => (isActive ? 'active' : '')}>
           Acerca de nosotros
         </NavLink>
       </div>
-    </div>
+    </nav>
   );
 };
 
