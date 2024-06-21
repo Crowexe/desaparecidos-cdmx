@@ -270,16 +270,17 @@ body, html {
 
 .instituto-info {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.left-logo, .right-logo {
-  width: 100px; /* Ajusta el tamaño según sea necesario */
-  height: auto;
+  margin: 20px 0;
 }
 
 .instituto-text {
-  text-align: center;
+  margin: 0 20px;
+}
+
+.left-logo, .right-logo {
+  width: 100px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  margin: 0 20px;
 }
