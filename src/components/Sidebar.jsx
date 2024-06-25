@@ -13,7 +13,7 @@ const Sidebar = ({ handleSectionChange }) => {
       <button className="no-hover">ÁREA METROPOLITANA</button>
       <div className="submenu">
         <button onClick={() => handleSectionChange('Cuatitlan')}>Cuatitlan</button>
-        <button onClick={() => handleSectionChange('Teloyucan')}>Teloyucan</button>
+        <button onClick={() => handleSectionChange('Teoloyucan')}>Teoloyucan</button>
         <button onClick={() => handleSectionChange('VenustianoCarranza')}>Venustiano Carranza</button>
       </div>
     </div>
