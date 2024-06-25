@@ -183,7 +183,7 @@ const App = () => {
 
   useEffect(() => {
     if (showMap) {
-      const filePath = `/src/data/${sections[activeSection].tableFile}`;
+      const filePath = `/${sections[activeSection].tableFile}`;
       fetch(filePath)
         .then((response) => response.text())
         .then((text) => {
