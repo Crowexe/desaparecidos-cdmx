@@ -125,7 +125,7 @@ const App = () => {
       ],
       mapImage: ['https://i.imgur.com/EsEfaOJ.jpeg'],
       texts: [
-        'El análisis de Teoloyucan muestra que los hombres más afectados tienen entre 15 y 19 años (15 casos) y las mujeres más vulnerables están en el mismo grupo de edad (25 casos), siendo las mujeres más propensas a las desapariciones (25 vs. 15 casos), con mayor incidencia en enero, mayo y agosto, principalmente en las localidades de Santa Cruz del Monte, Misiones Teoloyucan y Santa María Caliacac, en una población distribuida en 24.8% (0-14 años), 28.7% (15-29 años), 34.1% (30-59 años), 12.4% (60 años y más), y con una situación socioeconómica en la que el 18.2% vive en pobreza extrema y el 29.6% en pobreza moderada, siendo algunas posibles causas de desapariciones las atracciones turísticas durante vacaciones debido a las pirámides de Teotihuacan y diversos museos.',
+        'El análisis de Teoloyucan muestra que los hombres más afectados tienen entre 15 y 19 años (15 casos) y las mujeres más vulnerables están en el mismo grupo de edad (25 casos), siendo las mujeres más propensas a las desapariciones (25 vs. 15 casos), con mayor incidencia en enero, mayo y agosto, principalmente en las localidades de Santa Cruz del Monte, Misiones Teoloyucan y Santa María Caliacac, en una población distribuida en 24.8% (0-14 años), 28.7% (15-29 años), 34.1% (30-59 años), 12.4% (60 años y más), y con una situación socioeconómica en la que el 18.2% vive en pobreza extrema y el 29.6% en pobreza moderada.',
         'Predicción para el 2024',
         'Distribución de probabilidad por edades para hombres.',
         'Distribución de probabilidad por edades para mujeres.',
