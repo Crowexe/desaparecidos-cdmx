@@ -22,7 +22,7 @@ const App = () => {
         'https://i.imgur.com/riHEJBM.png',
       ],
       mapImage: [
-        'https://i.imgur.com/cIodKvv.jpeg',
+        'https://i.imgur.com/xB72cui.jpeg',
       ],
       texts: [
         'Al analizar la gráfica, se identifica un aumento preocupante en las desapariciones a partir del segundo semestre de 2018. Este pico comenzó a disminuir justo al inicio de la pandemia de Covid-19 en el segundo semestre de 2019. Aunque los registros de desapariciones continuaron, se observó una disminución en el número de casos. Sin embargo, fue tras concluir la pandemia, en el primer semestre de 2022, cuando los casos de denuncias comenzaron a aumentar nuevamente, aunque con cifras inferiores a las registradas en 2018.',
