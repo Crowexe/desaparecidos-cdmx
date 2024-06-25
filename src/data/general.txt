@@ -1,0 +1,17 @@
+Número	Nombre de la Colonia
+0  Venustiano Carranza
+1  Benito Juárez
+2  Milpa Alta
+3  La Magdalena Contreras
+4  Iztapalapa
+5  Coyoacán
+6  Tláhuac
+7  Tlalpan
+8  Iztacalco
+9  Xochimilco
+10  Álvaro Obregón
+11  Cuauhtémoc
+12  Gustavo A. Madero
+13  Cuajimalpa de Morelos
+14  Miguel Hidalgo
+15  Azcapotzalco
