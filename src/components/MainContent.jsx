@@ -12,12 +12,12 @@ const MainContent = ({ activeSection, sections, showMap, handleShowMapToggle, ha
         <thead>
           <tr>
             <th>Número</th>
-            <th>Nombre de la Colonia</th>
+            <th>Nombre de {activeSection === 'General' ? 'las alcaldías y municipios' : 'la colonia'}</th>
           </tr>
         </thead>
         <tbody>
           {rows.map((row, index) => {
-            const cells = row.replace(/^\d+\s+/, ''); // Eliminar números al inicio de cada fila
+            const cells = row.replace(/^\d+\s+/, ''); // Eliminar los números al inicio de cada fila
             return (
               <tr key={index}>
                 <td>{index + 1}</td>
