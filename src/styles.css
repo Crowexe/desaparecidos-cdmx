@@ -37,7 +37,7 @@ body, html {
   font-size: large;
   font-weight: bold;
   color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.377);
   position: fixed; /* Fijar el navbar */
   top: 0;
   left: 0;
@@ -93,6 +93,7 @@ body, html {
   display: flex;
   flex-direction: column;
   position: fixed;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.377);
 }
 
 .sidebar button {
@@ -184,6 +185,8 @@ body, html {
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.377);
+
 }
 
 .button-container button:hover {
