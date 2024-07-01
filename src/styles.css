@@ -131,8 +131,8 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  text-align: justify;
+  justify-content: start;
+  text-align: center; /* Centra el texto */
 }
 
 .main-title {
@@ -291,4 +291,8 @@ body, html {
   width: 100px; /* Ajusta el tamaño según tus necesidades */
   height: auto;
   margin: 0 20px;
+}
+
+.creators-directors {
+  text-align: center; /* Centrar texto */
 }

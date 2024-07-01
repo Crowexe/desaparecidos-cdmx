@@ -10,14 +10,18 @@ const AcercaDeNosotros = () => {
         </div>
         <img src="https://i.imgur.com/bDp3H0Y.png" alt="ESCOM Logo" className="right-logo" />
       </div>
-      <p><b>CREADO POR:</b><br />
-        Castillo Perez Samuel<br />
-        Sanchez Juarez Luis Alberto<br />
-        Venegas Avila Luis Fernando</p>
-      <br />
-      <p><b>DIRIGIDOS POR:</b><br />
-        Dr. Aguilar Velázquez Daniel<br />
-        M. en C. Botello Castillo Alejandro</p>
+      <div className="creators-directors">
+        <p><b>CREADO POR:</b><br />
+          Castillo Perez Samuel<br />
+          Sanchez Juarez Luis Alberto<br />
+          Venegas Avila Luis Fernando
+        </p>
+        <br />
+        <p><b>DIRIGIDOS POR:</b><br />
+          Dr. Aguilar Velázquez Daniel<br />
+          M. en C. Botello Castillo Alejandro
+        </p>
+      </div>
     </div>
   );
 };
