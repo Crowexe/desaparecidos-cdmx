@@ -1,7 +1,6 @@
 const AcercaDeNosotros = () => {
   return (
     <div className="main-content">
-      <h1 className="main-title">Acerca de Nosotros</h1>
       <div className="instituto-info">
         <img src="https://i.imgur.com/nMa4wGr.png" alt="IPN Logo" className="left-logo" />
         <div className="instituto-text">
