@@ -22,8 +22,8 @@ const App = () => {
         'https://i.imgur.com/riHEJBM.png',
       ],
       mapImage: [
-        'https://i.imgur.com/xB72cui.jpeg',
-        'https://i.imgur.com/YwIXd4V.jpeg',
+        'https://i.imgur.com/hnaGri1.jpeg',
+        'https://i.imgur.com/vM1ipVk.jpeg',
       ],
       texts: [
         'Al analizar la gráfica, se identifica un aumento preocupante en las desapariciones a partir del segundo semestre de 2018. Este pico comenzó a disminuir justo al inicio de la pandemia de Covid-19 en el segundo semestre de 2019. Aunque los registros de desapariciones continuaron, se observó una disminución en el número de casos. Sin embargo, fue tras concluir la pandemia, en el primer semestre de 2022, cuando los casos de denuncias comenzaron a aumentar nuevamente, aunque con cifras inferiores a las registradas en 2018.',
@@ -44,7 +44,7 @@ const App = () => {
         'https://i.imgur.com/1iGtxJz.png',
         'https://i.imgur.com/3Da4cok.png',
       ],
-      mapImage: ['https://i.imgur.com/jQcKTF8.jpeg'],
+      mapImage: ['https://i.imgur.com/YLnhhlY.jpeg'],
       texts: [
         'El perfil de víctimas revela que los hombres de 15-19 años presentan 46 casos y las mujeres de la misma edad 84 casos, siendo las mujeres más propensas (84 vs 46 casos), con mayor incidencia en marzo, mayo y noviembre, ubicándose principalmente en las colonias El Rosario, Nueva España y La Preciosa, en una población distribuida en 23.8% (0-14 años), 31.4% (15-29 años), 33.4% (30-59 años), 11.4% (60 años y más), y con una situación socioeconómica en la que el 25.6% vive en pobreza extrema y el 36.8% en pobreza moderada. (Meses de mayor desaparición: Mayo, Junio y Noviembre)',
         'Predicción para el 2024',
@@ -66,7 +66,7 @@ const App = () => {
         'https://i.imgur.com/CswAWs3.png',
         'https://i.imgur.com/Gx1AJ0N.png',
       ],
-      mapImage: ['https://i.imgur.com/9VVV49M.jpeg'],
+      mapImage: ['https://i.imgur.com/jv6wjpD.jpeg'],
       texts: [
         'La Alcaldía Cuauhtémoc presenta características que la hacen susceptible a la problemática de las desapariciones. La alta concentración de población vulnerable, la infraestructura urbana deficiente, la falta de coordinación institucional, la desconfianza social y la ausencia de políticas públicas efectivas son factores que contribuyen a este fenómeno. Además la alcaldía presenta zonas con poca iluminación pública, calles desiertas y espacios públicos sin vigilancia adecuada, lo que crea un ambiente propicio para la comisión de delitos sin ser detectados. La falta de cámaras de seguridad y sistemas de vigilancia electrónica también dificulta la identificación de los responsables y la recuperación de las víctimas. Es muy posible que las colonias Tabacalera, zona rosa y centro tenga mayor presencia de desapariciones entre los mese de abril y julio debido a vacaciones de semana santa así como atracción turística e incremento de actividades nocturnas. (Meses de mayor desaparición: Julio, Noviembre y diciembre)',
         'Predicción para el 2024',
@@ -88,7 +88,7 @@ const App = () => {
         'https://i.imgur.com/eVRem9M.png',
         'https://i.imgur.com/DOHhkwr.png',
       ],
-      mapImage: ['https://i.imgur.com/disqO4W.jpeg'],
+      mapImage: ['https://i.imgur.com/iEipt1F.jpeg'],
       texts: [
         'El análisis de Melchor Ocampo revela que los adolescentes de 15 a 19 años son el grupo más afectado, tanto en hombres (10 casos) como en mujeres (23 casos), siendo las mujeres más propensas a las desapariciones (23 vs. 10 casos), con mayor incidencia en abril y octubre, principalmente en las localidades de Educación, San Isidro y Visitación, en una población distribuida en 23.5% (0-14 años), 31.4% (15-29 años), 33.8% (30-59 años), 11.3% (60 años y más), y con una situación socioeconómica en la que el 9.8% vive en pobreza extrema y el 24.8% en pobreza moderada, lo cual podría estar correlacionado con la vulnerabilidad a las desapariciones, ya que la pobreza incrementa los riesgos de sufrir estas situaciones, afectando predominantemente a adolescentes, especialmente a mujeres, en ciertos meses y localidades específicas.',
         'Predicción para el 2024',
@@ -107,7 +107,7 @@ const App = () => {
         'https://i.imgur.com/DMQILT0.png',
         'https://i.imgur.com/UPUfHbw.png',
       ],
-      mapImage: ['https://i.imgur.com/E9YAGY6.jpeg'],
+      mapImage: ['https://i.imgur.com/jimvzgJ.jpeg'],
       texts: [
         'El análisis de Cuautitlán Izcalli revela que los adolescentes de 15 a 19 años son los más afectados por las desapariciones, con 58 casos en hombres y 121 en mujeres, siendo las mujeres más propensas (121 vs. 58 casos), con mayor incidencia en diciembre y julio, y las localidades con más casos son Centro Urbano, De San Francisco Tepojaco y Adolfo López Mateos, en una población distribuida en 8.6% (15-29 años), 8.3% (20-24 años), 8.5% (30-39 años), 11.3% (60 años y más), y una situación socioeconómica donde el 3.6% vive en pobreza extrema y el 27.9% en pobreza moderada, lo que contribuye a la vulnerabilidad frente a las desapariciones, destacando que la pobreza, la violencia de género y otros factores de seguridad incrementan los riesgos, afectando predominantemente a adolescentes, especialmente a mujeres, en ciertos meses y localidades específicas.',
         'Predicción para el 2024',
@@ -123,7 +123,7 @@ const App = () => {
         'https://i.imgur.com/Zngc9BX.png',
         'https://i.imgur.com/7FXf8yZ.png',
       ],
-      mapImage: ['https://i.imgur.com/EsEfaOJ.jpeg'],
+      mapImage: ['https://i.imgur.com/7YIBoQR.jpeg'],
       texts: [
         'El análisis de Teoloyucan muestra que los hombres más afectados tienen entre 15 y 19 años (15 casos) y las mujeres más vulnerables están en el mismo grupo de edad (25 casos), siendo las mujeres más propensas a las desapariciones (25 vs. 15 casos), con mayor incidencia en enero, mayo y agosto, principalmente en las localidades de Santa Cruz del Monte, Misiones Teoloyucan y Santa María Caliacac, en una población distribuida en 24.8% (0-14 años), 28.7% (15-29 años), 34.1% (30-59 años), 12.4% (60 años y más), y con una situación socioeconómica en la que el 18.2% vive en pobreza extrema y el 29.6% en pobreza moderada.',
         'Predicción para el 2024',
@@ -142,7 +142,7 @@ const App = () => {
         'https://i.imgur.com/hsTThMg.png',
         'https://i.imgur.com/L47dZ8k.png',
       ],
-      mapImage: ['https://i.imgur.com/qMnBy12.jpeg'],
+      mapImage: ['https://i.imgur.com/Nl3NXdu.jpeg'],
       texts: [
         'El análisis del perfil de las víctimas revela que los hombres de 30 a 34 años son los más afectados, posiblemente por actividades laborales o de ocio, mientras que las mujeres jóvenes de 15 a 19 años son las más vulnerables, destacando la violencia de género y la vulnerabilidad social, además, aunque ambos sexos son víctimas, las mujeres representan un número significativamente mayor de casos debido a factores sociales, económicos y culturales que las hacen más vulnerables. (Meses de mayor desaparición: Junio, Octubre y Febrero)',
         'Predicción para el 2024',
