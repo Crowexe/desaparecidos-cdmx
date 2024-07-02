@@ -78,7 +78,7 @@ const App = () => {
       ],
       tableFile: 'cuauhtemoc.txt',
     },
-    MelchorOcampo: {
+    'Melchor Ocampo': {
       images: [
         'https://i.imgur.com/blPI0S3.png',
         'https://i.imgur.com/OG8Olgc.png',
@@ -100,7 +100,7 @@ const App = () => {
       ],
       tableFile: 'melchor_ocampo.txt',
     },
-    Cuatitlan: {
+    'Cuatitlan Izcalli': {
       images: [
         'https://i.imgur.com/5Y1pcWz.png',
         'https://i.imgur.com/Fq4sMFL.png',
@@ -132,7 +132,7 @@ const App = () => {
       ],
       tableFile: 'teoloyucan.txt',
     },
-    VenustianoCarranza: {
+    'Venustiano Carranza': {
       images: [
         'https://i.imgur.com/UckX6Jc.png',
         'https://i.imgur.com/VMwKQEf.png',

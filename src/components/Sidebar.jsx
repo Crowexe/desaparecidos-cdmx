@@ -8,13 +8,13 @@ const Sidebar = ({ handleSectionChange }) => {
       <div className="submenu">
         <button onClick={() => handleSectionChange('Azcapotzalco')}>Azcapotzalco</button>
         <button onClick={() => handleSectionChange('Cuahutemoc')}>Cuahutemoc</button>
-        <button onClick={() => handleSectionChange('VenustianoCarranza')}>Venustiano Carranza</button>
+        <button onClick={() => handleSectionChange('Venustiano Carranza')}>Venustiano Carranza</button>
       </div>
       <button className="no-hover">ÁREA METROPOLITANA</button>
       <div className="submenu">
-        <button onClick={() => handleSectionChange('Cuatitlan')}>Cuatitlan</button>
+        <button onClick={() => handleSectionChange('Cuatitlan Izcalli')}>Cuatitlan Izcalli</button>
         <button onClick={() => handleSectionChange('Teoloyucan')}>Teoloyucan</button>
-        <button onClick={() => handleSectionChange('MelchorOcampo')}>Melchor Ocampo</button>
+        <button onClick={() => handleSectionChange('Melchor Ocampo')}>Melchor Ocampo</button>
       </div>
     </div>
   );

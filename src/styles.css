@@ -38,11 +38,11 @@ body, html {
   font-weight: bold;
   color: white;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.377);
-  position: fixed; /* Fijar el navbar */
+  position: fixed; 
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Asegurar que el navbar esté por encima del contenido */
+  z-index: 1000;
 }
 
 .navbar-brand {
@@ -51,9 +51,9 @@ body, html {
 }
 
 .navbar-logo {
-  width: 30px; /* Ajusta el tamaño según sea necesario */
+  width: 30px; 
   height: auto;
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  margin-right: 10px; 
 }
 
 .navbar-links {
@@ -132,12 +132,15 @@ body, html {
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  text-align: center; /* Centra el texto */
 }
 
 .main-title {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.creators-directors {
+  text-align: center;
 }
 
 .main-content p, .main-content ol {
@@ -269,11 +272,11 @@ body, html {
 }
 
 .link-image {
-  width: 150px; /* Ajusta el tamaño según sea necesario */
+  width: 150px; 
   height: auto;
   display: block;
-  margin: 20px auto; /* Centra la imagen horizontalmente */
-  cursor: pointer; /* Muestra un cursor de puntero para indicar que es un enlace */
+  margin: 20px auto; 
+  cursor: pointer; 
 }
 
 .instituto-info {
@@ -288,11 +291,9 @@ body, html {
 }
 
 .left-logo, .right-logo {
-  width: 100px; /* Ajusta el tamaño según tus necesidades */
+  width: 100px; 
   height: auto;
   margin: 0 20px;
 }
 
-.creators-directors {
-  text-align: center; /* Centrar texto */
-}
+
