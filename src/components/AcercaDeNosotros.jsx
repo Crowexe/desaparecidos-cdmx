@@ -1,6 +1,8 @@
 const AcercaDeNosotros = () => {
   return (
     <div className="main-content">
+      <div className="creators-directors">
+
       <div className="instituto-info">
         <img src="https://i.imgur.com/nMa4wGr.png" alt="IPN Logo" className="left-logo" />
         <div className="instituto-text">
@@ -9,7 +11,6 @@ const AcercaDeNosotros = () => {
         </div>
         <img src="https://i.imgur.com/bDp3H0Y.png" alt="ESCOM Logo" className="right-logo" />
       </div>
-      <div className="creators-directors">
         <p><b>CREADO POR:</b><br />
           Castillo Perez Samuel<br />
           Sanchez Juarez Luis Alberto<br />
